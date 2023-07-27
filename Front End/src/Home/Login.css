@@ -1,0 +1,113 @@
+.loncontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  margin-bottom: 10px;
+  color: #336699;
+}
+
+.lon-signup-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.lon-signup-container p {
+  margin-right: 5px;
+  color: #555;
+}
+
+.lon-signup-link {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.lon-form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+.lon-label-container {
+  display: flex;
+  align-items: center;
+}
+
+.lon-label-container label {
+  font-weight: bold;
+  width: 100px;
+}
+
+.lon-input-container {
+  display: flex;
+  align-items: center;
+}
+
+input[type='email'],
+input[type='password'],
+input[type='text'],
+input[type='otp'],
+select {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+
+
+
+
+.lon-get-otp-button {
+  padding: 10px;
+   background-color: #336699;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.lon-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.lon-login-button {
+  padding: 10px 20px;
+  background-color: #336699;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+
+
+.lon-pwd-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.lon-pwdup-link{
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
